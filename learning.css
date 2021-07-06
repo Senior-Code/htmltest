@@ -1,0 +1,138 @@
+body {
+  background: #f1f1f1;
+  font-family: Arial;
+}
+
+.post {
+  background: #242527;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  color: #BCBDC1;
+  height: 50px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-desc {
+  flex-grow: 1;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-name {
+  font-weight: 600;
+}
+
+.post-time {
+  font-size: 0.75rem;
+  color: #BCBDC1;
+}
+
+.profile-action {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.media img {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  padding: 10px 10px 0px 10px;
+  height: 24px;
+}
+
+.reaction {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.reaction img {
+  width: 18px;
+  height: 18px;
+  margin-right: -5px;
+  border: 3px solid #242527;
+  border-radius: 50%;
+}
+
+.reaction-counter {
+  padding-left: 5px;
+  flex-grow: 1;
+  line-height: 24px;
+  color: #BCBDC1;
+}
+
+.comment-counter {
+  line-height: 24px;
+  color: #BCBDC1;
+}
+
+.reaction img:first-child {
+  margin-right: 0;
+}
+
+.line{
+  border-top: none ;
+  border-left: none;
+  border-right: none;
+  border-bottom: #36373A solid 0.2px;
+  margin: 10px 10px 0px 10px;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 30px;
+  align-items: center;
+  color: #BCBDC1;
+}
+.like{
+  border: none;
+  background-color: transparent;
+  flex-grow: 1;
+  color: #BCBDC1;
+}
+.comment{
+  border: none;
+  background-color: transparent;
+  flex-grow: 2;
+  color: #BCBDC1;
+}
+.share{
+  border: none;
+  background-color: transparent;
+  flex-grow: 3;
+  color: #BCBDC1;
+}
+.image{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  color: #555;
+}
+.image img{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%; 
+}
+.arrow-down{
+  padding: 3px;
+  font-size: 7px;
+}
