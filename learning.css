@@ -112,13 +112,21 @@ body {
 .comment{
   border: none;
   background-color: transparent;
+<<<<<<< HEAD
   flex-grow: 1;
+=======
+  flex-grow: 2;
+>>>>>>> f155dd436f25e1dcc4006459026f46b263f6ce2c
   color: #BCBDC1;
 }
 .share{
   border: none;
   background-color: transparent;
+<<<<<<< HEAD
   flex-grow: 1;
+=======
+  flex-grow: 3;
+>>>>>>> f155dd436f25e1dcc4006459026f46b263f6ce2c
   color: #BCBDC1;
 }
 .image{
